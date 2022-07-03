@@ -267,7 +267,8 @@ html{
         border-radius: 10rem;
         outline: none;
         background: linear-gradient(to right, gold,goldenrod);
-        cursor: pointer;animation: anim 1.5s 1s backwards;
+        cursor: pointer;
+        animation: anim 1.5s 1s backwards;
         
     }
     .banner-button:hover{
@@ -627,7 +628,7 @@ html{
        width: 45rem;
     }
     .image-wrapper{
-        width: 12rem;
+        width: 13rem;
         margin: .4rem;
         overflow: hidden;
         
@@ -743,8 +744,18 @@ html{
         .copyright-text{
             order: 1;
         }
+        .room-card{
+            height: fit-content;
+           }
+           .gallery{
+            width:fit-content;
+           }
+           .image-wrapper{
+            width: 12rem;
+        }
+        
     }
-    @media(max-width:500px)
+    @media(max-width:450px)
     {
         .navigation{
             width: 20rem;
@@ -772,7 +783,7 @@ html{
             font-size: 2rem;
         }
         .image{
-            width: 13rem;
+            width: 10rem;
         }
         .about-us-heading{
             font-size: 2.5rem;
@@ -829,9 +840,19 @@ html{
             width: 12rem;
         }
         .image-wrapper{
-            width: 15rem;
+            width: 10rem;
         }
-       
+        .room-price{
+            font-size: 2rem;
+            /* top: -10px; */
+            padding-bottom: 1rem;
+        }
+       .room-card{
+        height: fit-content;
+       }
+       .gallery{
+        width:fit-content;
+       }
     
     
     }
